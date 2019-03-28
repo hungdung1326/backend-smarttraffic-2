@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="smart-traffic:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/smart_traffic_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="smart-traffic/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="smart-traffic" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: com.google.appengine:appengine-api-1.0-sdk:Release" />
+          <element id="library" level="project" name="Maven: com.googlecode.objectify:objectify:5.1.22" />
+          <element id="library" level="project" name="com.google.code.gson:gson:2.8.5" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
